@@ -1,17 +1,19 @@
-# ML 第一次实验
+# 机器学习 第二次实验
 
-## 实验目的 
-- 进一步理解线性回归和梯度下降的原理。
-	* 在小规模数据集上实践。
-	* 优化和调参的过程。
-	* 数据集以及数据分析：
-- 进一步理解线性分类和梯度下降的原理。
-	* 在小规模数据集上实践。
-	* 优化和调参的过程。
+关于本仓库：
 
-## 对比线性回归和线性分类的异同点：
-* 1.Linear SVM和LR都是线性分类器
-* 2.Linear SVM不直接依赖数据分布，分类平面不受一类点影响；LR则受所有数据点的影响，如果数据不同类别strongly unbalance一般需要先对数据做balancing。
-* 3.Linear SVM依赖数据表达的距离测度，所以需要对数据先做normalization；LR不受其影响
-* 4.Linear SVM依赖penalty的系数，实验中需要做validation
-* 5.Linear SVM和LR的performance都会收到outlier的影响
+1. 因为最终系统是按照文件名称抓取代码文件，所以请勿更改ClassificationExperiment.ipynb和RegressionExperiment.ipynb的文件名。
+2. .ipynb是jupyter botebook文件的后缀名，在jupyter中可以查看并编辑。
+3. 报告的模板包含在实验的目录页中。
+4. 最终仓库至少应该包含下列三个文件，ClassificationExperiment.ipynb、RegressionExperiment.ipynb和report.pdf
+4. 参考代码也会在所有同学都提交完毕后公布在本仓库中。
+
+# The second machine learning experiment
+
+About this repository:
+
+1. Because the system extract the file according to the file name, please do not rename the file *ClassificationExperiment.ipynb* and *RegressionExperiment.ipynb*.
+2. .ipynb is the suffix of the jupyter botebook file, which can be viewed and edited in jupyter.
+3. The template of report is available on the content page of the experiments.
+4. Ths repository should include ClassificationExperiment.ipynb, RegressionExperiment.ipynb and report.pdf at least.
+4. The reference code will also be published in this repository after all the students have submitted.
